@@ -3,12 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="donations.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Donations</title>
 </head>
-<h1><u>Donations</u></h1>
+
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Charity.com</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/donations.html">Donations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <h1><u>Donations</u></h1>
         <img class = "image" src = "https://pmh.com/wp-content/uploads/donate.jpg">
+        <div class="mx-2">
         <p>
             Donations are a great way to support a cause!  A donation takes on many different forms such as: 
             <ul>
@@ -21,22 +67,41 @@
                 <li>vehicles</li>
                 <li>organs (heart, kidney etc.)</li>
             </ul> 
+            <hr>
             <h2>St. Jude's </h2>
             St. Jude's Children Hospital spearheads the fight against childhood cancer.  St. Jude Children's Research Hospital is located 
             in Memphis, Tennessee and is one of the largest cancer research centers.  Most of their research efforts centralize around 
             the idea of understanding the molecular, genetic, and chemical bases of catastrophic diseases in children.  They work hard at 
             finding cures for such diseases and promoting their prevention.  By donating, you can help put an end to childhood cancer.  
             Click <a href="https://www.stjude.org/donate/pm.html?sc_dcm=58700006527275917&sc_cid=kwp75544&gclid=CjwKCAiAudD_BRBXEiwAudakX6ijkPKKHE1voAuuVHfwiqUhLQO3c1zx2R0U3CvJKdK6cA9HrhHsNxoCmkAQAvD_BwE&gclsrc=aw.ds">here</a> to donate!
-            <h2>GoFundMe</h2>
+            <hr><h2>GoFundMe</h2>
             GoFundMe is the largest fundraising platform, where people can construct campaigns for any case through donations.  GoFundMe
             provides an easy way to raise money for your family, friends and even online community.  This platform makes it simple to 
             advertise your campaign in many ways to encourage donations, track your personal progress and post updates to inform your 
             community.  Click <a href="https://www.gofundme.com/">here</a> to start a campaign!
-            <h2>Toys for Tots</h2>
+            <hr><h2>Toys for Tots</h2>
             Toys for Tots is a program run by the United States Marine Corps Reserve that administers toys to children whose parents 
             cannot afford to buy them gifts for Christams.  This organization has been around sice 1947, distributing 584 million toys and
             supporting over 260 million children.  Some of its accolades include 2003 Outstanding Nonprofit Organization of the Year as
             well as <i>Reader's Digest</i> Best Children's Charity of 2003.  Click <a href="https://www.toysfortots.org/donate/">here</a> to donate!
-        </p>
+        </p></div>
+
+        <footer class="sticky-bottom py-3 bg-dark text-light text-center">
+            <div>Tech Talent Pipeline</div>
+          </footer>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  -->
 </body>
 </html>
